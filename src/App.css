@@ -234,3 +234,24 @@ form .button-container a:hover {
 }
 
 /**************  MODAL END **************/
+
+/************** MOBILE  START **************/
+@media (max-width: 612px) {
+  form {
+    width: 90%;
+  }
+
+  form .input-container {
+    width: 100%;
+  }
+
+  form .button-container {
+    width: 100%;
+  }
+
+  .todo-app {
+    width: 90%;
+  }
+}
+
+/************** MOBILE  END **************/
