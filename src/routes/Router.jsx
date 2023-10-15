@@ -14,7 +14,7 @@ const Router = createBrowserRouter(
     <>
       <Route path="/" element={<Login />} exact />
       <Route element={<PrivateRoutes />}>
-        <Route path="/todoapp" element={<Todo />} />
+        <Route path="todoapp" element={<Todo />} />
       </Route>
     </>
   )
